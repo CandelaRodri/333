@@ -1,0 +1,46 @@
+
+Ejercicio 3
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ touch "capitulo3.txt"
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ git add "capitulo3.txt"
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ git commit -m "Añadido capitulo 3"
+[master 22f8397] Añadido capitulo 3
+ 1 file changed, 3 insertions(+)
+ create mode 100644 capitulos/capitulo3.txt
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ git log
+commit 22f839720a5f1b78b5530848c7802ea0dca17ecc (HEAD -> master)
+Author: Candela Rodriguez <rodriguezacandela@gmail.com>
+Date:   Tue Aug 27 13:46:58 2024 -0300
+
+    Añadido capitulo 3
+
+commit 526c4dc4b4310287bd8aa6376f53c2e75325f0b6
+Author: Candela Rodriguez <rodriguezacandela@gmail.com>
+Date:   Tue Aug 27 13:40:33 2024 -0300
+
+    Añadido capitulo 2
+
+commit 2c40d21fc36f90aa371c7936fb41fa3e25cb2f01
+Author: Candela Rodriguez <rodriguezacandela@gmail.com>
+Date:   Tue Aug 27 13:35:42 2024 -0300
+
+    Añadido capitulo 1
+
+commit cb2e8020d053b892698bea483c0d6a696c290dc8
+Author: Candela Rodriguez <rodriguezacandela@gmail.com>
+Date:   Tue Aug 27 13:14:42 2024 -0300
+
+    Añadido capitulo 3 sobre gestion de ramas y capitulo 4 spbre repositor remoto
+
+commit 74dbc9b23dcf8f5a44817472fca8ba748faadbec
+Author: Candela Rodriguez <rodriguezacandela@gmail.com>
+Date:   Tue Aug 27 13:05:06 2024 -0300
+
+    Añadido indice del libro

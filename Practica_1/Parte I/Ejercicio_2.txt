@@ -1,0 +1,31 @@
+
+Ejercicio 2
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1 (master)
+$ git init
+Reinitialized existing Git repository in D:/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/.git/
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1 (master)
+$ mkdir libro
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1 (master)
+$ cd libro
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git init
+Initialized empty Git repository in D:/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/.git/
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ ls
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ ls - a
+ls: cannot access '-': No such file or directory
+ls: cannot access 'a': No such file or directory
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ ls -a
+./  ../  .git/
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$

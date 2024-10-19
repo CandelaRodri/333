@@ -1,0 +1,22 @@
+
+Ejercicio 4
+
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tenología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git init
+Reinitialized existing Git repository in D:/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/.git/
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git commit -m "Añadido indice del libro"
+[master (root-commit) 74dbc9b] Añadido indice del libro
+ 1 file changed, 3 insertions(+)
+ create mode 100644 indice.txt
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ ls
+indice.txt

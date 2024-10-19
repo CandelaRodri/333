@@ -1,0 +1,32 @@
+
+Ejercicio 1
+
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1
+$ git config --global user.name "Candela Rodriguez"
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1
+$ git config --global user.email "rodriguezacandela@gmail.com"
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1
+$ git config --global color.ui auto
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Candela Rodriguez
+user.email=rodriguezacandela@gmail.com
+color.ui=auto

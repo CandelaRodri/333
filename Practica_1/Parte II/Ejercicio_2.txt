@@ -1,0 +1,21 @@
+
+Ejercicio 2
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ git add "capitulo2.txt"
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ git commit -m "Añadido capitulo 2"
+[master 526c4dc] Añadido capitulo 2
+ 1 file changed, 4 insertions(+)
+ create mode 100644 capitulos/capitulo2.txt
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ git diff
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro/capitulos (master)
+$ git log --oneline
+526c4dc (HEAD -> master) Añadido capitulo 2
+2c40d21 Añadido capitulo 1
+cb2e802 Añadido capitulo 3 sobre gestion de ramas y capitulo 4 spbre repositor remoto
+74dbc9b Añadido indice del libro

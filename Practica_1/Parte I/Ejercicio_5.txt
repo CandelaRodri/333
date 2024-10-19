@@ -1,0 +1,45 @@
+
+Ejercicio 5
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git diff
+diff --git a/indice.txt b/indice.txt
+index 8142b7e..3c4c2a7 100644
+--- a/indice.txt
++++ b/indice.txt
+@@ -1,3 +1,4 @@
+ Capítulo 1: Introducción a Git
+ Capítulo 2: Flujo de trabajo básico
+-Capítulo 3: Repositorios remotos
+\ No newline at end of file
++Capítulo 3: Gestión de ramas
++Capítulo 4: Repositorios remotos
+\ No newline at end of file
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git commit -m "Añadido capitulo 3 sobre gestion de ramas y capitulo  4 sobre repositor remoto"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   indice.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git add "indice.txt"
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ ^[[200~git commit -m "Añadido capitulo 3 sobre gestion de ramas y capitulo  4 sobre repositor remoto"
+bash: $'\E[200~git': command not found
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git commit -m "Añadido capitulo 3 sobre gestion de ramas y capitulo 4 spbre repositor remoto"
+[master cb2e802] Añadido capitulo 3 sobre gestion de ramas y capitulo 4 spbre repositor remoto
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+cande@DESKTOP-7AE9UVD MINGW64 /d/Usuario/Desktop/TDAI/1° año/2° Cuatrimestre/Tecnología de la Información en las Organizaciones/GIT/Practica_1/libro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
